@@ -8,10 +8,10 @@
 }
 
 :root {
-    --bg-color: #000000; /* Black background */
+    --bg-color: #000000; 
     --second-bg-color: #101010;
     --text-color: white;
-    --main-color: #87CEEB; /* Light blue as the main color */
+    --main-color: #87CEEB; 
 }
 
 html {
@@ -86,13 +86,13 @@ span {
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #87CEEB 10%, /* Light blue */
-        #FFFFFF 100% /* White */
+        #87CEEB 10%, 
+        #FFFFFF 100% 
     );
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    color: black; /* Black text for contrast */
+    color: black; 
     border: none;
     text-wrap: nowrap;
 }
@@ -129,17 +129,17 @@ section {
 }
 
 .home-content h3 {
-    margin: 1rem 0; /* Corrected the margin value (replaced % with 0) */
+    margin: 1rem 0; 
     font-size: 4rem;
 }
 
 .home-content p {
     font-size: 1.5rem;
-    font-weight: 500; /* Changed from 50% to 500 (valid font-weight value) */
+    font-weight: 500; 
     line-height: 1.8;
 }
 .home-img img {
-    width: 32vw; /* Changed from 32ws to 32vw */
+    width: 32vw; 
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
@@ -154,7 +154,7 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem; /* Adjust this value to make icons larger */
+    font-size: 3rem; 
     padding: 1rem;
     background: transparent;
     border: 2px solid var(--main-color);
@@ -182,10 +182,10 @@ section {
     box-shadow: 0 0 25px var(--main-color);
     border-radius: 3rem;
     font-size: 1.8rem;
-    color: black; /* Removed brackets around black */
+    color: black; 
     border: 2px solid transparent;
     font-weight: 600;
-    transition: 0.3s ease-in-out; /* Corrected 0.38 to 0.3s */
+    transition: 0.3s ease-in-out; 
 }
 .btn:hover {
     transform: scale(1.05);
@@ -194,7 +194,7 @@ section {
 }
 
 .btn-group a:nth-of-type(2) {
-    background-color: black; /* Removed brackets around black */
+    background-color: black; 
     color: var(--main-color);
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px transparent;
@@ -202,7 +202,7 @@ section {
 .btn-group a:nth-of-type(2):hover {
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
-    color: black; /* Removed brackets around black */
+    color: black; 
 }
 .about {
     display: flex;
@@ -210,12 +210,12 @@ section {
     align-items: center;
     gap: 10rem;
     background: var(--second-bg-color);
-    padding: 10rem 15%; /* Added padding for better spacing */
+    padding: 10rem 15%; 
 }
 
 .about-img img {
-    width: 32vw; /* Changed from 32ws to 32vw */
-    border-radius: 50%; /* Changed from border: 50% to border-radius: 50% */
+    width: 32vw; 
+    border-radius: 50%; 
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
 }
@@ -277,21 +277,21 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a; /* Dark grayish black */
+    background-color: #1a1a1a; 
     height: 600px;
     border-radius: 20px;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-    color: #d1d1d1; /* Soft light gray text */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    color: #d1d1d1; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .service-box:hover {
-    background: #292929; /* Slightly lighter black on hover */
-    color: #ffffff; /* White text for contrast */
-    border: 5px solid #444; /* Subtle grayish border */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* White glow effect */
+    background: #292929; 
+    color: #ffffff; 
+    border: 5px solid #444; 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
 }
 
 .service-info{
@@ -472,7 +472,7 @@ section {
     }
     
     .home-img img {
-        width: 56vw; /* Changed from 56w to 56vw */
+        width: 56vw; 
     }
     
     .about {
@@ -482,7 +482,7 @@ section {
     
     .about h2 {
         text-align: center;
-        margin: 2rem 0; /* Added missing margin value */
+        margin: 2rem 0; 
     }
     .about img{
         width: 52vw;
